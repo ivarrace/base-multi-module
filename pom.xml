@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>data-mongo</module>
         <module>library</module>
         <module>application</module>
     </modules>

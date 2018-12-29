@@ -1,4 +1,4 @@
-package com.ivarrace.base.service;
+package com.ivarrace.base.lib.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

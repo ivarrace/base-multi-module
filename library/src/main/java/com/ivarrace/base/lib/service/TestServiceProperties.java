@@ -1,4 +1,4 @@
-package com.ivarrace.base.service;
+package com.ivarrace.base.lib.service;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
