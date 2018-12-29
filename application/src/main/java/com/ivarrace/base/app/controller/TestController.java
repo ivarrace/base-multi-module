@@ -1,6 +1,6 @@
 package com.ivarrace.base.app.controller;
 
-import com.ivarrace.base.lib.service.TestService;
+import com.ivarrace.base.core.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

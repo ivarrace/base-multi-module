@@ -1,7 +1,7 @@
 package com.ivarrace.base.app.controller;
 
-import com.ivarrace.base.data.mongo.entity.Customer;
-import com.ivarrace.base.lib.service.CustomerService;
+import com.ivarrace.base.core.service.CustomerService;
+import com.ivarrace.base.model.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

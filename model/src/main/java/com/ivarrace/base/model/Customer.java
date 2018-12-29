@@ -1,22 +1,10 @@
-package com.ivarrace.base.data.mongo.entity;
+package com.ivarrace.base.model;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.data.annotation.Id;
-
-@EntityScan
 public class Customer {
 
-    @Id
     private String id;
-
     private String firstName;
     private String lastName;
-
-    public Customer(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
 
     public String getId() {
         return id;

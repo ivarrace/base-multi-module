@@ -1,8 +1,8 @@
-package com.ivarrace.base.lib.service;
+package com.ivarrace.base.core.service;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties("service")
+@ConfigurationProperties("dao")
 public class TestServiceProperties {
 
     private String message;

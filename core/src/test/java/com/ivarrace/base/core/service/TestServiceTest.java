@@ -1,4 +1,4 @@
-package com.ivarrace.base.lib.service;
+package com.ivarrace.base.core.service;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(properties = {"service.message=Hello TEST!"})
+@SpringBootTest(properties = {"dao.message=Hello TEST!"})
 public class TestServiceTest {
 
     @Autowired
